@@ -5,6 +5,8 @@
 4. დავდგეთ frontend-ში და გავუშვათ ბრძანება npm run dev იმისთვის რომ გაეშვას ლოკალზე აპლიკაციის front
    ამის შემდეგ ვესტუმროთ ტერმინალში მოცემულ ლინკს და გამოვიყენოთ აპლიკაცია
 
-DISCLAIMER (? very not sure about this one) backend -> .env ფაილში შესაძლოა გახდეს გასაწერი (იმედია ვცდები) SECRET_ACCESS_TOKEN
+DISCLAIMER: საიტზე შესასვლელად localhost:XXXX/login ან /SignUp ან /notes
+
+DISCLAIMERv2(? very not sure about this one) backend -> .env ფაილში შესაძლოა გახდეს გასაწერი (იმედია ვცდები) SECRET_ACCESS_TOKEN
 ამ ცვლადის დაგენერირებისთვის გავხსნათ cmd/terminal და გავუშვათ ბრძანება:
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
